@@ -1,10 +1,10 @@
-#ifndef _COMPUTER_H
-#define _COMPUTER_H
+#ifndef _HUMAN_H
+#define _HUMAN_H
 
-class Computer
+class Human
 {
     private:
-        char comMove;
+        char humMove;
     public:
         void makeMove();
         char getMove();
