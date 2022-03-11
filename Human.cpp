@@ -2,12 +2,12 @@
 #include "Computer.h"
 #include "Human.h"
 
-char HumanPlayer::getMove()
+char Human::getMove()
 {
     return humMove;
 }
 
-void HumanPlayer::makeMove()
+void Human::makeMove()
 {
     std::cout << "Enter move: ";
     std::cin >> humMove;
