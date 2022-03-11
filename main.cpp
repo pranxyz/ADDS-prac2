@@ -5,8 +5,8 @@
 
 int main()
 {
-  HumanPlayer *player1 = new HumanPlayer();
-  ComputerPlayer *player2 = new ComputerPlayer();
+  Human *player1 = new Human();
+  Computer *player2 = new Computer();
   Referee referee;
 
   char result;
@@ -19,29 +19,3 @@ int main()
   }
   return 0;
 }
-
-/*  without loop
-int main ()
-{
-  HumanPlayer *player1 = new HumanPlayer();
-  ComputerPlayer *player2 = new ComputerPlayer();
-  Referee referee;
-
-  char result = referee.refGame(player1, player2);
-  std::cout << result << std::endl;
-
-  result = referee.refGame(player1, player2);
-  std::cout << result << std::endl;
-
-  result = referee.refGame(player1, player2);
-  std::cout << result << std::endl;
-
-  result = referee.refGame(player1, player2);
-  std::cout << result << std::endl;
-
-  result = referee.refGame(player1, player2);
-  std::cout << result << std::endl;
-
-  return 0;
-}
-*/
