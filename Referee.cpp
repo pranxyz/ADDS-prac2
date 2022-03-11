@@ -10,6 +10,7 @@ char Referee::refGame(HumanPlayer *player1,ComputerPlayer *player2)
     char hmove = player1->getMove();
     player2->makeMove();
     char cmove = player2->getMove();
+
     if (hmove == 'R')
     {
         result = 'T';
@@ -18,9 +19,12 @@ char Referee::refGame(HumanPlayer *player1,ComputerPlayer *player2)
     {
         result = 'W';
     }
-    else
+    else if(hmove == 'S')
     {
         result = 'L';
     }
-    return result;
+    else
+        result = 'L';
+
+  return result;
 }
