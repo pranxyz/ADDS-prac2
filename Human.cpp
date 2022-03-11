@@ -5,7 +5,7 @@
 char HumanPlayer::makeMove()
 {
     char move;
-    std::cout << "enter move initial (in caps): ";
+    std::cout << "Enter move: ";
     std::cin >> move;
     return move;
 }
