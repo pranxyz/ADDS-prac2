@@ -1,7 +1,7 @@
 #ifndef _COMPUTER_H
 #define _COMPUTER_H
 
-class ComputerPlayer
+class Computer
 {
     private:
         char comMove;
