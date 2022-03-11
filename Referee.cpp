@@ -3,7 +3,7 @@
 #include "Computer.h"
 #include "Human.h"
 
-char Referee::refGame(HumanPlayer *player1,ComputerPlayer *player2)
+char Referee::refGame(Human *player1,Computer *player2)
 {
     char result = 'A';
     player1->makeMove();
