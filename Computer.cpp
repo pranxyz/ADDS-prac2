@@ -2,12 +2,12 @@
 #include "Computer.h"
 #include "Human.h"
 
-char ComputerPlayer::getMove()
+char Computer::getMove()
 {
     return comMove;
 }
 
-void ComputerPlayer::makeMove()
+void Computer::makeMove()
 {
     char comMove = 'R';
 }
